@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>District 9 Report Submission</title>
+</head>
+<body>
+    <h1>Submit Your School Report</h1>
+    <form action="/submit-report" method="POST">
+        <label for="school">School Name:</label><br>
+        <input type="text" id="school" name="school" required><br><br>
+
+        <label for="summary">Report Summary:</label><br>
+        <textarea id="summary" name="summary" rows="6" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Submit Report">
+    </form>
+</body>
+</html>
